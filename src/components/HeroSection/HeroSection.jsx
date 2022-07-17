@@ -1,16 +1,16 @@
 import React from 'react'
-import './VideoSection.scss'
+import './HeroSection.scss'
 import '../../styles/App.scss'
-import video from '../VideoSection/bgVideo.mp4'
+import video from '../HeroSection/bgVideo.mp4'
 
 function VideoSection() {
   return (
-	<div className='vs-container'>
+	<section className='vs-container'>
 	<video autoPlay loop muted>
         <source src={video} type="video/mp4" />
       </video>
 		<h1>Погрузись в атмосферу <br/> MEGA</h1>
-	</div>
+	</section>
 	
   )
 }

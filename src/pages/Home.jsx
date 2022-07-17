@@ -1,5 +1,5 @@
 import React from "react";
-import VideoSection from "../components/VideoSection/VideoSection";
+import VideoSection from "../components/HeroSection/HeroSection";
 import '../styles/App.scss'
 
 const Home = () => {
