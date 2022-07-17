@@ -4,9 +4,10 @@ video{
 	height: 100%;
 	position:absolute;
 	top: 0;
-	z-index: -1;
+	z-index: 1;
+	border-bottom: 2px solid aqua;
 }
-.vs-container{
+.hs-container{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -17,14 +18,17 @@ video{
 	flex-direction: column;
 	align-items: center;
 	object-fit: contain;
+	
+	
 }
-.vs-container h1{
-	display: flex;
-	font-size: 54px;
+.hs-container h1{
+	position: absolute;
+	z-index: 3;
+	top: 50%;
+	font-size: calc(32px + 22*(100vw/1450));
 	text-align: center;
-	align-self: center;
 	color: aquamarine;
-	text-shadow: 0 0 10px  aquamarine;
+	text-shadow: 0 0 5px  aquamarine;
 	
 	
 }
