@@ -43,9 +43,7 @@ import Dropdown from '../UI/Dropdown/Dropdown';
   return (
 	<>
 		<nav className={navbar? 'navbar active':'navbar'}>
-		
 		<Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          MEGA
         </Link>
 			<div className='menu-icon' onClick={handleClick}>
 				<i className ={click ? 'fas fa-times': 'fas fa-bars'}/>

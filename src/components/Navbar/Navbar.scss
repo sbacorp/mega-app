@@ -9,11 +9,11 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  transition: all 0.5s ease 0s;
+  transition: all 1.5s ease 0s;
 }
 
 .navbar.active{
-  transition: all 0.5s ease 0s;
+  transition: all 1.5s ease 0s;
   height: 80px;
   background: linear-gradient(90deg, rgba(28, 27, 27,0.9) 0%, rgba(26, 23, 23,0.9) 100%);
   box-shadow: 0 0 30px 1 gray;
@@ -22,11 +22,13 @@
 
 
 .navbar-logo {
+  align-self: center;
+  background: url(../img/logo.png) 0 0/contain no-repeat;
+  width: 210px;
+  height: 70px;
   color: #fff;
   justify-self: start;
   cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
 }
 
 
@@ -37,7 +39,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 70vw;
+  width: 65vw;
   justify-content: end;
   margin-right: 2rem;
 }
@@ -52,20 +54,20 @@
 .nav-links {
   
   color: white;
-  padding: 200px;
   text-decoration: none;
   padding: 0.5rem 1rem;
   clip-path: polygon(82% 100%, 99% 81%, 100% 0%, 19% 0, 0 21%, 0 100%);
+  border: 0.5px solid rgba(26, 23, 23,0);
 }
 
 .nav-links:hover {
   color: aqua;
-  border: 0.5px solid aqua;
+  border: 1px solid aqua;
   box-shadow: 0 0 10px aqua;
-  transition: all 0.2s ease-out;
+  transition: all 0.4s ease-in-out ;
 }
 .fa-caret-down{
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .fa-bars {
   color: white;
@@ -120,10 +122,14 @@
   }
 
   .navbar-logo {
-    position: absolute;
-    top: 15px;
-    left: 0;
-    transform: translate(25%, 50%);
+    align-self: center;
+    background: url(../img/logo.png) 0 0/contain no-repeat;
+    width: 210px;
+    height: 70px;
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    
   }
 
   .menu-icon {
@@ -131,7 +137,7 @@
     position: absolute;
     top: 13px;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 50%);
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -139,6 +145,7 @@
   .fa-times {
     color: white; 
     font-size: 2rem;
+
   }
 
   .nav-links-mobile {

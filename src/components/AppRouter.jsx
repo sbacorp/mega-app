@@ -3,6 +3,7 @@ import {Redirect, Route, Switch} from "react-router-dom";
 import {Routes} from "../router";
 
 
+
   const AppRouter = () =>{
 	return(
 		<Switch>
@@ -14,7 +15,7 @@ import {Routes} from "../router";
                         key={route.path}
                     />
                 )}
-                <Redirect to='/home'/>
+                <Redirect to='/'/>
 		</Switch>
 	);
   };

@@ -52,7 +52,7 @@
 }
 
 .item_left{
-	height: 64px;
+	height: 80px;
 	width: 20px;
 	border: 2px solid aquamarine;
 	border-right: 0;
@@ -60,18 +60,18 @@
 .item_check{
 	margin: 0 18px 0 18px;
 	background: url(../components/img/check.png) 0 0/cover no-repeat;
-	height: 64px;
+	height: 80px;
 	width: 64px;
 
 }
 .item_right{
-	font-size: calc(10px + 4*(100vw/1450));
+	font-size: calc(11px + 5*(100vw/1450));
 	line-height: 1.5;
 	color: #fff;
 	display: flex;
 	align-items: center;
 	padding: 5px 15px 5px 36px;
-	height: 64px;
+	height: 80px;
 	width: 60%;
 	border: 2px solid aquamarine;
 	border-left: 0;
@@ -94,7 +94,7 @@
 	.item_check,
 	.item_left,
 	.item_right{
-		height: 78px;
+		height: 85px;
 		
 	}
 	.item_check{

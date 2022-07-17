@@ -11,7 +11,13 @@ function VideoSection() {
 	<video autoPlay loop muted>
         <source src={video} type="video/mp4" />
       </video>
-		<h1>Погрузись в атмосферу <br/> MEGA</h1>
+
+	  <h1 class="glitch">
+    	<span aria-hidden="true">Погрузись в атмосферу MEGA</span>
+    	Погрузись в атмосферу MEGA
+    	<span aria-hidden="true">Погрузись в атмосферу MEGA</span>
+  	</h1>
+		
 	</section>
 	
   )
