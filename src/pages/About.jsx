@@ -4,8 +4,10 @@ import '../styles/App.scss'
 const About = () => {
     return (
         <>
-        <div className='container about'>
-            <h1>afsdfsd rgsedg seg wser</h1>
+        <div className=' about'>
+            <div className='container'>
+                <h1>afsdfsd rgsedg seg wser</h1>
+            </div>
         </div>
         </>
     );

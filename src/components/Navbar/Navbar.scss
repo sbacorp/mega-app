@@ -4,16 +4,16 @@
   top: 0;
   left: 0;
   background: transparent;
-  height: 140px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  transition: all 1.5s ease 0s;
+  transition: all 1s ease-out 0s;
 }
 
 .navbar.active{
-  transition: all 1.5s ease 0s;
+  transition: all 1s ease-out 0s;
   height: 80px;
   background: linear-gradient(90deg, rgba(28, 27, 27,0.9) 0%, rgba(26, 23, 23,0.9) 100%);
   box-shadow: 0 0 30px 1 gray;

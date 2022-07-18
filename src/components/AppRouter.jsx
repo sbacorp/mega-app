@@ -3,7 +3,6 @@ import {Redirect, Route, Switch} from "react-router-dom";
 import {Routes} from "../router";
 
 
-
   const AppRouter = () =>{
 	return(
 		<Switch>

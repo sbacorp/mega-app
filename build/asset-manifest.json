@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7a48ff54.chunk.css",
+    "main.js": "/static/js/main.fd37dce9.chunk.js",
+    "main.js.map": "/static/js/main.fd37dce9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.05680f80.js",
+    "runtime-main.js.map": "/static/js/runtime-main.05680f80.js.map",
+    "static/css/2.5548e25a.chunk.css": "/static/css/2.5548e25a.chunk.css",
+    "static/js/2.aeb183d6.chunk.js": "/static/js/2.aeb183d6.chunk.js",
+    "static/js/2.aeb183d6.chunk.js.map": "/static/js/2.aeb183d6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.5548e25a.chunk.css.map": "/static/css/2.5548e25a.chunk.css.map",
+    "static/css/main.7a48ff54.chunk.css.map": "/static/css/main.7a48ff54.chunk.css.map",
+    "static/js/2.aeb183d6.chunk.js.LICENSE.txt": "/static/js/2.aeb183d6.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/BlackAcute.19e73ddd.ttf",
+    "static/media/Home.module.scss": "/static/media/tournament.32acad94.webp",
+    "static/media/bgVideo.17aaa200.mp4": "/static/media/bgVideo.17aaa200.mp4",
+    "static/media/Navbar.scss": "/static/media/logo.297ac864.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05680f80.js",
+    "static/css/2.5548e25a.chunk.css",
+    "static/js/2.aeb183d6.chunk.js",
+    "static/css/main.7a48ff54.chunk.css",
+    "static/js/main.fd37dce9.chunk.js"
+  ]
+}
